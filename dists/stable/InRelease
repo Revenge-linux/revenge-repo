@@ -1,16 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Revenge Wireless Tools
+Label: Revenge Wireless Repository
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Repository di strumenti wireless per Revenge OS
+Date: Sat, 01 Nov 2025 00:20:39 +0000
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGHSUACgkQoyFIuaQV
-XH7+whAA4G7EOFgvywBWtH6/GVuxHCRw7f9xyjJ+ipK5rNlLxJYxqwnQLub6HWTL
-OeEny/z8bBw0hpducl6rFr0SFAnB2MxAbxP7rEeehkxrmZhwDsedufW7U4IwEW3V
-HNMLVXDjYJ0RR6YIN+BIHMi5lBBy252D3vK5spIHnHZBwF5pSRqxHhSKDaWT50GF
-97ECMkaUpkLMPX+YGHUxnQu2ShlRuDr74uqOORKIJpbqrOD0p0OwyyHmTryCkdfp
-/Pr2UEly7raE4GK58rjT2IqDhZWa3Lxj1pZDN0HMQcWqjzyVSK4yeBoZE2D8Vtwp
-wBEFcBYPYD0VmgskQbplXx7cvSVrq+R7PNszGEnqb3wIg6IQbbMjPxrCOMTLxVUR
-gdE7DAQmR57vB2Hqe2PEeEY1Noim22n3KMnh6ut2PuWVzvNuupgrljw8sMY7uCV7
-AxZtDbMgBtS3GZ20SQXZJbtXQk8xZPM66kNtr5zHIPMXg9JcBv1mLGW/wplBGtTb
-Lw2kt6fo11+VOLf/HlY7YMvQ9OmnhDhNEELMdzyly0tshZMbgIC+6d0WlTRjdnOl
-wvXLdqo0eonzHzkZWvOrFpzWayo5v05PkfTCRWLwAYtztHtn2lWWceMIbPU3h0b2
-KfpiOAr+Wl3l2a2/PQchva8v3DX98ZccCBpA40Z8K1YkIFOBOP4=
-=7vIp
+iQIzBAEBCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGJcoACgkQoyFIuaQV
+XH50rRAAtIYAaIk8Sm0y65XnuCLUoql7sqF/dZlSmp1jD8UdzUbb4klb8FtBYR38
+I/O/ylLpOkpAp1Uq+fJmqNEdqIasAEH0FGOp/PhaTucCCCD5EnUhjqJzNHuZJVth
+ijd2hmse6xF/MvqOBijoSWbHZl2Mk1KyKWsHof606Bx2nN0tqdm2yXdKCquA2IFn
+WEilDCUVYGGBLETLbKG2/v6pB2/85DgePmKxYIChHMZs8zE9TlifrMP87ptHo0fH
+zrCM/rtk4BZlUjCDc4V0ZVpnMqSFlLtxOybj1Sr5XN8bwidQzYDqvsVJmiHbXRdx
+WIXF0kToNhQdfFdt8ZV8FvGin7REKYmydxDTkkWZLWn5zbF5/hMAFFHSNvKXBQo/
+J/e2QhTKQIjY9ZRhkjT5HIE+agfTq34dTkFw2nxGQBOJFkOFMWaAdPBhfbmxaJaG
+OlS7AZYbRrsn0HsI1mx1iEqH4WCxIWU4p+2YFw65ZrM6qLQeVsE/XF2J+8ZXWrTK
+VWnSk/y1+3tn2eC2l86wYIHeHoyGocNzyGsUrUuI56NL1ENdsTrUycSehlfJNtvy
+k9dxGteKeJtIXiUVn1LQHJg0LVaofFa982lw11WxxkwNkPwrVEQxXj35IuCk/uL1
+cH712sI0fuB7d7k7pjboeLfxdijyxRHp2gnV+W6JMib88VQpwf8=
+=4P96
 -----END PGP SIGNATURE-----
