@@ -9,21 +9,27 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository di strumenti wireless per Revenge OS
-Date: Sat, 01 Nov 2025 00:20:39 +0000
+Date: $(date -Ru)
+MD5Sum:
+ $(md5sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+SHA1:
+ $(sha1sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+SHA256:
+ $(sha256sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGJcoACgkQoyFIuaQV
-XH50rRAAtIYAaIk8Sm0y65XnuCLUoql7sqF/dZlSmp1jD8UdzUbb4klb8FtBYR38
-I/O/ylLpOkpAp1Uq+fJmqNEdqIasAEH0FGOp/PhaTucCCCD5EnUhjqJzNHuZJVth
-ijd2hmse6xF/MvqOBijoSWbHZl2Mk1KyKWsHof606Bx2nN0tqdm2yXdKCquA2IFn
-WEilDCUVYGGBLETLbKG2/v6pB2/85DgePmKxYIChHMZs8zE9TlifrMP87ptHo0fH
-zrCM/rtk4BZlUjCDc4V0ZVpnMqSFlLtxOybj1Sr5XN8bwidQzYDqvsVJmiHbXRdx
-WIXF0kToNhQdfFdt8ZV8FvGin7REKYmydxDTkkWZLWn5zbF5/hMAFFHSNvKXBQo/
-J/e2QhTKQIjY9ZRhkjT5HIE+agfTq34dTkFw2nxGQBOJFkOFMWaAdPBhfbmxaJaG
-OlS7AZYbRrsn0HsI1mx1iEqH4WCxIWU4p+2YFw65ZrM6qLQeVsE/XF2J+8ZXWrTK
-VWnSk/y1+3tn2eC2l86wYIHeHoyGocNzyGsUrUuI56NL1ENdsTrUycSehlfJNtvy
-k9dxGteKeJtIXiUVn1LQHJg0LVaofFa982lw11WxxkwNkPwrVEQxXj35IuCk/uL1
-cH712sI0fuB7d7k7pjboeLfxdijyxRHp2gnV+W6JMib88VQpwf8=
-=4P96
+iQIzBAEBCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGj1MACgkQoyFIuaQV
+XH5MvA/8CN4jQ5E8Yoe0XFr8HD91S+LTcDq1IEahpQH0ZtC66b/ZiuZYaYNOsq9l
+L/gmeOwi1zjXbfN3f61gsLxhg9nFt6euyyf1uAynpIb6MDtZAdoBlmGq07YDdbdT
+8CGAC2xNY89RMnFsBMx4i0ekAWj1yEJJTGDPcsp9p6SHo8132JRLqEOiyiFLO40P
+eMtxn60M6WM1VBhkkMXwNALnwERXxlYZkgw5202brdsY3xs6nMn9Qe7HrhvnblT0
+sHqmSdQL+XHEzFxCZm40D4MkjpRsBXQ7GZ0OQVZQCns2JT/eTn4XXmhDUhal0plC
+1YcE4U70I9iKn1wt4s7JJlcbevpoi1SHx7SrwQgjRcXUGQaQi2ohAM/UPvOFuc8F
+opmSm+wl4Z8NOwdGwygTjMKDLYRxiMQ0+jn6yU/fbMLgBfPR4wM19Mn8Hy1MzXoe
+Dh8F9e9jy72QsvItqZG3iXKIWTUqgAYsRGHmJTaKgSDzBA6meNdEV8rk5zlgeb7S
+wu1lzNntOA7JjXeSb1bOHee3I45uYXVAf+2ERa4ZNW/1RW/QyHb6BWTAIQ96t+ly
+lRqMVPSFM1cCDofE7wWyb16agY0xcPU9CbaxndKDEG3/o6Y9OIXG/E5ASD/IaGcW
+2HYuNn3UV8t+Jj7iV4mnbjzBhaiU1YbFsITratTf8Qb8o6k/hw0=
+=BA6s
 -----END PGP SIGNATURE-----
