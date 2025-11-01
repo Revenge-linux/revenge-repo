@@ -1,0 +1,9 @@
+Origin: Revenge Wireless Tools
+Label: Revenge Wireless Repository
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Repository di strumenti wireless per Revenge OS
+Date: Sat, 01 Nov 2025 00:20:39 +0000

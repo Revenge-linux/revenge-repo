@@ -1,0 +1,6 @@
+*.gpg
+*.key
+*.secret
+*.asc
+private/
+temp/

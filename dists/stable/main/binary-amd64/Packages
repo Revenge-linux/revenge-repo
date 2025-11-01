@@ -1,0 +1,382 @@
+Package: aircrack-ng
+Source: aircrack-ng (1:1.7+git20230807.4bf83f1a-2)
+Version: 1:1.7+git20230807.4bf83f1a-2+b1
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 2529
+Depends: ethtool, hwloc, iw, rfkill, usbutils, wireless-tools, python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libhwloc15 (>= 2.12.2), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libpcap0.8t64 (>= 0.9.8), libpcre2-8-0 (>= 10.22), libsqlite3-0 (>= 3.5.9), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Recommends: ieee-data, iproute2
+Suggests: gpsd
+Filename: pool/main/aircrack-ng_1%3a1.7+git20230807.4bf83f1a-2+b1_amd64.deb
+Size: 557248
+MD5sum: 5b2444f12a6c5a6e60e2c188e25566dc
+SHA1: 918bb7e71882825e8b8b34fc0363003a6adf0475
+SHA256: 48f14d5f27084d23cb8745baf023ab3c09e292d07890d991aa40dfaf137fa9f5
+Section: net
+Priority: optional
+Homepage: https://www.aircrack-ng.org/
+Description: wireless WEP/WPA cracking utilities
+ aircrack-ng is an 802.11a/b/g WEP/WPA cracking program that can recover a
+ 40-bit, 104-bit, 256-bit or 512-bit WEP key once enough encrypted packets
+ have been gathered. Also it can attack WPA1/2 networks with some advanced
+ methods or simply by brute force.
+ .
+ It implements the standard FMS attack along with some optimizations,
+ thus making the attack much faster compared to other WEP cracking tools.
+ It can also fully use a multiprocessor system to its full power in order
+ to speed up the cracking process.
+ .
+ aircrack-ng is a fork of aircrack, as that project has been stopped by
+ the upstream maintainer.
+
+Package: firmware-ath9k-htc
+Source: open-ath9k-htc-firmware
+Version: 1.4.0-110-ge888634+dfsg1-0.2
+Architecture: all
+Maintainer: John Scott <jscott@posteo.net>
+Installed-Size: 153
+Breaks: firmware-atheros (<= 20230210-1)
+Replaces: firmware-atheros (<= 20230210-1)
+Filename: pool/main/firmware-ath9k-htc_1.4.0-110-ge888634+dfsg1-0.2_all.deb
+Size: 44996
+MD5sum: 1be77aa0608e41ffb7dee96aa4418f18
+SHA1: 0b41de6f75522c7078be0af0336985901866221b
+SHA256: 5e9b410ccb3afa5705f80c8a6fe0825670c9bedadf84a966ea7c13d87ff07672
+Section: kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/qca/open-ath9k-htc-firmware
+Description: firmware for AR7010 and AR9271 USB wireless adapters
+ The Qualcomm Atheros AR7010 and AR9271 chipsets are used in USB
+ wireless adapters which are 802.11n-capable. This package contains
+ the free firmware they require to function, and which gets loaded
+ onto the devices during use.
+
+Package: firmware-iwlwifi
+Source: firmware-nonfree
+Version: 20250808-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 121074
+Suggests: initramfs-tools
+Filename: pool/main/firmware-iwlwifi_20250808-1_all.deb
+Size: 16499156
+MD5sum: bcf13e44c35670140de2ef86252557fa
+SHA1: 8f3db13f54d1d595a9103112ac8707b3a502caa5
+SHA256: dea03950ad542e9a771b415a34ace2e8ec9212d33e1111a2646147534b6a9f06
+Section: non-free-firmware/kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description: Binary firmware for Intel Wireless cards
+ This package contains the binary firmware for Intel Wireless cards
+ supported by the iwl3945, iwl4965, and iwlwifi drivers.
+
+Package: firmware-misc-nonfree
+Source: firmware-nonfree
+Version: 20250808-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 13425
+Recommends: firmware-nvidia-graphics, firmware-intel-graphics, firmware-intel-misc, firmware-mediatek
+Suggests: initramfs-tools
+Conflicts: firmware-ti-connectivity (<< 20230625-3~)
+Provides: firmware-adi, firmware-ralink
+Filename: pool/main/firmware-misc-nonfree_20250808-1_all.deb
+Size: 4398388
+MD5sum: ed2a7153b1be0ad703d88a7e7efcdce4
+SHA1: 3dc9df4586f5118133c413dfe1669e8cae83ca8f
+SHA256: 591839d68b9393fff295c3e045296126e6da9b20742a70d6106c60100a2206bd
+Section: non-free-firmware/kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description: Binary firmware for various drivers in the Linux kernel
+ This package contains the binary firmware for various drivers in the Linux
+ kernel.  This is a collection of firmware blobs which are not individually
+ large enough to warrant a standalone package.
+
+Package: firmware-realtek
+Source: firmware-nonfree
+Version: 20250808-1
+Architecture: all
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 22997
+Suggests: initramfs-tools
+Conflicts: firmware-realtek-rtl8723cs-bt
+Replaces: firmware-realtek-rtl8723cs-bt
+Filename: pool/main/firmware-realtek_20250808-1_all.deb
+Size: 3051728
+MD5sum: 273c1ec399207c73c981656e6b39af43
+SHA1: 8978bf2dc45d39542aa55e969fc06edc906c235c
+SHA256: c5072e4570b7437dabb00486772cb11444cb9aaf920df3ac57b4470bdf6c1c3a
+Section: non-free-firmware/kernel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description: Binary firmware for Realtek network and audio chips
+ This package contains the binary firmware for Realtek Ethernet, Wi-Fi,
+ Bluetooth and audio chips supported by various drivers.
+
+Package: hcxdumptool
+Version: 7.0.0-1
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 216
+Depends: libc6 (>= 2.38), libpcap0.8t64 (>= 0.9.8)
+Filename: pool/main/hcxdumptool_7.0.0-1_amd64.deb
+Size: 101264
+MD5sum: 4025cc485ffba5388e7db323f254e8a2
+SHA1: c9d7051d8783f31532916a47f2065558bece2826
+SHA256: fdb7ef870bf2f70da22188fefc1a72647b529a02eadb2fa853e51aec07df3d58
+Section: net
+Priority: optional
+Homepage: https://github.com/ZerBea/hcxdumptool
+Description: Small tool to capture packets from wlan devices
+ Tool to capture wpa handshake from Wi-Fi networks and run several tests to
+ determine if Wi-Fi access points or clients are vulnerable to brute-force
+ attacks.
+
+Package: hostapd
+Source: wpa (2:2.10-24)
+Version: 2:2.10-24+b1
+Architecture: amd64
+Maintainer: Debian wpasupplicant Maintainers <wpa@packages.debian.org>
+Installed-Size: 2338
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libc6 (>= 2.38), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libnl-route-3-200 (>= 3.11.0), libssl3t64 (>= 3.0.0)
+Filename: pool/main/hostapd_2%3a2.10-24+b1_amd64.deb
+Size: 877096
+MD5sum: fbc4e9df60ff5a97ea68acb21adbef85
+SHA1: 2f2c52ddd72bc1b878105755c0f0b97c5c1b8049
+SHA256: 0b4a039ccef57fdf7c8ad10cce91010eba677b189967851549e3e56b5053c75a
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://w1.fi/wpa_supplicant/
+Description: access point and authentication server for Wi-Fi and Ethernet
+ IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/WPA3/EAP Authenticator
+ .
+ Originally, hostapd was an optional user space component for Host AP
+ driver. It adds more features to the basic IEEE 802.11 management
+ included in the kernel driver: using external RADIUS authentication
+ server for MAC address based access control, IEEE 802.1X Authenticator
+ and dynamic WEP keying, RADIUS accounting, WPA/WPA2/WPA3 (IEEE 802.11i/RSN)
+ Authenticator and dynamic TKIP/CCMP keying.
+ .
+ The current version includes support for other drivers, an integrated
+ EAP authenticator (i.e., allow full authentication without requiring
+ an external RADIUS authentication server), and RADIUS authentication
+ server for EAP authentication.
+ .
+ hostapd works with the following drivers:
+ .
+  * mac80211 based drivers with support for master mode [linux]
+  * Host AP driver for Prism2/2.5/3 [linux]
+  * Driver interface for FreeBSD net80211 layer [kfreebsd]
+  * Any wired Ethernet driver for wired IEEE 802.1X authentication.
+
+Package: iproute2
+Version: 6.17.0-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 3780
+Depends: debconf (>= 0.5) | debconf-2.0, libbpf1 (>= 1:0.6.0), libc6 (>= 2.38), libcap2 (>= 1:2.10), libdb5.3t64, libelf1t64 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~), libtirpc3t64 (>= 1.0.2), libxtables12 (>= 1.6.0+snapshot20161117), libcap2-bin
+Suggests: python3:any
+Conflicts: arpd
+Breaks: iproute2-doc
+Replaces: iproute2-doc
+Provides: arpd
+Filename: pool/main/iproute2_6.17.0-1_amd64.deb
+Size: 1101952
+MD5sum: 352cf769d4e6cb36f72d41ae24040d31
+SHA1: 7edce3498ca0a982dbd43fdb7bf50ed0fe6b037b
+SHA256: d5be9717bbeb92fdbf3e2baad6df3e7e2dcb0804ecd4cc691e4fbb3fc8ddfc2a
+Section: net
+Priority: important
+Multi-Arch: foreign
+Homepage: https://wiki.linuxfoundation.org/networking/iproute2
+Description: networking and traffic control tools
+ The iproute2 suite is a collection of utilities for networking and
+ traffic control.
+ .
+ These tools communicate with the Linux kernel via the (rt)netlink
+ interface, providing advanced features not available through the
+ legacy net-tools commands 'ifconfig' and 'route'.
+
+Package: iw
+Version: 6.17-1
+Architecture: amd64
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Installed-Size: 332
+Depends: libc6 (>= 2.38), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0)
+Recommends: wireless-regdb
+Filename: pool/main/iw_6.17-1_amd64.deb
+Size: 110024
+MD5sum: 71fa118b428449e1fa019754f90791b3
+SHA1: 5c2ca00da7915e11e0b797234fa3ec105d194a67
+SHA256: 3a085c49d8309c6de54a61a9f961397fc5f097abd8f1d0202353ea0a545c5ccb
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://wireless.wiki.kernel.org/en/users/documentation/iw
+Description: tool for configuring Linux wireless devices
+ This package contains the 'iw' command line tool which allows one to configure
+ and show information about wireless devices.
+ .
+ iw is based on the nl80211 kernel interface and supports the majority of
+ fairly recent hardware. The old tool iwconfig, which uses Wireless Extensions
+ interface, is deprecated and it is strongly recommended to switch to iw and
+ nl80211.
+
+Package: macchanger
+Version: 1.7.0-6
+Architecture: amd64
+Maintainer: David Paleino <dapal@debian.org>
+Installed-Size: 641
+Depends: libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Filename: pool/main/macchanger_1.7.0-6_amd64.deb
+Size: 191432
+MD5sum: bcb587360b868af26f2f9236cf5860db
+SHA1: b5619d224c35153328295cafcc0ffa752b25aa8f
+SHA256: 61185baaec346656ae2b7cf174a4ccb55eda6ce45df679552aa739dd42c26a6c
+Section: net
+Priority: optional
+Homepage: https://github.com/alobbs/macchanger
+Description: utility for manipulating the MAC address of network interfaces
+ GNU MAC Changer is an utility that makes the maniputation of MAC addresses of
+ network interfaces easier.  MAC addresses are unique identifiers on networks,
+ they only need to be unique, they can be changed on most network hardware.
+ MAC addresses have started to be abused by unscrupulous marketing firms,
+ government agencies, and others to provide an easy way to track a computer
+ across multiple networks.  By changing the MAC address regularly, this kind
+ of tracking can be thwarted, or at least made a lot more difficult.
+ .
+ Features:
+ .
+   * set specific MAC address of a network interface
+   * set the MAC randomly
+   * set a MAC of another vendor
+   * set another MAC of the same vendor
+   * set a MAC of the same kind (eg: wireless card)
+   * display a vendor MAC list (today, 6200 items) to choose from
+
+Package: mdk4
+Source: mdk4 (4.2-5)
+Version: 4.2-5+b1
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 236
+Depends: aircrack-ng, libc6 (>= 2.38), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libpcap0.8t64 (>= 0.9.8)
+Filename: pool/main/mdk4_4.2-5+b1_amd64.deb
+Size: 107504
+MD5sum: 17695d040a7cd327c7b88f635e1418f6
+SHA1: 451175bfbf3eae94fc729ae4f0a00c1ea5ca93c5
+SHA256: efe2282460ba64c8bb3a3839ae155065d0be75a4c5ed424416aec5a1d9903f12
+Section: net
+Priority: optional
+Homepage: https://github.com/aircrack-ng/mdk4
+Description: Wireless attack tool for IEEE 802.11 networks
+ This package contains a proof-of-concept tool to exploit common IEEE 802.11
+ protocol weaknesses.
+ .
+ MDK4 is a new version of MDK3. MDK4 is a Wi-Fi testing tool from E7mer of
+ 360PegasusTeam, ASPj of k2wrlz, it uses the osdep library from the aircrack-ng
+ project to inject frames on several operating systems.
+ .
+ IMPORTANT: It is your responsibility to make sure you have permission from the
+ network owner before running MDK against it.
+
+Package: reaver
+Source: reaver (1.6.6-2)
+Version: 1.6.6-2+b1
+Architecture: amd64
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 851
+Depends: libc6 (>= 2.34), libpcap0.8t64 (>= 1.0.0)
+Recommends: pixiewps
+Suggests: aircrack-ng
+Filename: pool/main/reaver_1.6.6-2+b1_amd64.deb
+Size: 170288
+MD5sum: 9ced8eb9e2e104f012868861e23a8d9e
+SHA1: fc58aef376eb939dd98f0ad1eb6cf7095364b5be
+SHA256: 13f1e03ba2668f7b9a3f25e70c3ae4a705d0e51e847f6c1f4bef770bd1d281cd
+Section: net
+Priority: optional
+Homepage: https://github.com/t6x/reaver-wps-fork-t6x
+Description: brute force attack tool against Wi-Fi Protected Setup PIN number
+ Reaver performs a brute force attack against an access point's Wi-Fi
+ Protected Setup pin number.
+ Once the WPS pin is found, the WPA PSK can be recovered and alternately
+ the AP's wireless settings can be reconfigured.
+ This package also provides the Wash executable, an utility for identifying WPS
+ enabled access points. See documentation in /usr/share/doc/reaver/README.WASH.
+
+Package: wifite
+Version: 2.7.0-3
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 2410
+Depends: python3 (>= 3.2), python3-chardet, python3-scapy, python3:any, aircrack-ng, reaver, tshark, net-tools, ieee-data
+Suggests: macchanger, bully, hashcat, hcxdumptool, hcxpcaptool
+Filename: pool/main/wifite_2.7.0-3_all.deb
+Size: 803252
+MD5sum: 63f8e01cf6ab49ee22242a2735d25ae5
+SHA1: 4299dffb0ad4e9a80c8896654393452292d2c32c
+SHA256: 23b56bbbf091aa39fd9d04c7ac1a8ce87c5e803c3a556d09592500b994a45c31
+Section: net
+Priority: optional
+Homepage: https://github.com/kimocoder/wifite2
+Description: Python script to automate wireless auditing using aircrack-ng tools
+ Wifite is a tool to audit WEP or WPA encrypted wireless networks.
+ It uses aircrack-ng, pyrit, reaver, tshark tools to perform the audit.
+ .
+ This tool is customizable to be automated with only a few arguments
+ and can be trusted to run without supervision.
+
+Package: wireless-tools
+Source: wireless-tools (30~pre9-18)
+Version: 30~pre9-18+b1
+Architecture: amd64
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 293
+Depends: libc6 (>= 2.34), libiw30t64 (>= 30~pre1)
+Filename: pool/main/wireless-tools_30~pre9-18+b1_amd64.deb
+Size: 108636
+MD5sum: 4b66695af901400c1d42f84e4023bdb9
+SHA1: e7986f33d871c1b5f145f4f421b75f1c3ff35da0
+SHA256: da254848506189e1f210618ffefdea11220662e252f1f1915bb1d93ad2696c52
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Description: Tools for manipulating Linux Wireless Extensions
+ This package contains the Wireless tools, used to manipulate
+ the Linux Wireless Extensions. The Wireless Extension is an interface
+ allowing you to set Wireless LAN specific parameters and get the
+ specific stats.
+
+Package: wpasupplicant
+Source: wpa (2:2.10-24)
+Version: 2:2.10-24+b1
+Architecture: amd64
+Maintainer: Debian wpasupplicant Maintainers <wpa@packages.debian.org>
+Installed-Size: 3899
+Depends: libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libnl-3-200 (>= 3.11.0), libnl-genl-3-200 (>= 3.11.0), libnl-route-3-200 (>= 3.11.0), libpcsclite1 (>= 1.0.0), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), adduser
+Suggests: wpagui, libengine-pkcs11-openssl
+Breaks: network-manager (<< 1.36.4-2~)
+Filename: pool/main/wpasupplicant_2%3a2.10-24+b1_amd64.deb
+Size: 1436136
+MD5sum: 394e00f79bf07a3ef88c50e2a7f88d92
+SHA1: 6cf004cab7c8775d78e3e76a8a4452249d07fedc
+SHA256: d29cd8c8c8f68f516c450c270d21bd02d57eceaeb41b5b5632fb026231f21700
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://w1.fi/wpa_supplicant/
+Description: client support for WPA and WPA2 (IEEE 802.11i)
+ wpa-supplicant is a userspace daemon handling connection and authentication
+ in wireless and wired networks, primarily secured with the WPA/WPA2/WPA3
+ protocols. This software provides key negotiation with the access point
+ (WPA Authenticator), and controls association with IEEE 802.11i networks.
+
