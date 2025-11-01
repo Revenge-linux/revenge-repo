@@ -9,27 +9,27 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository di strumenti wireless per Revenge OS
-Date: $(date -Ru)
+Date: Sat, 01 Nov 2025 23:03:29 +0000
 MD5Sum:
- $(md5sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ 1331ca827705eb7cadad7668b43afcef 6179 main/binary-amd64/Packages.gz
 SHA1:
- $(sha1sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ 9c1ed76f549af073d36eecacc076fb0331a39393 6179 main/binary-amd64/Packages.gz
 SHA256:
- $(sha256sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ d39bf64978b376858bca5979ffd288572d4c9416aa86f695a7d4ce9183fcb27b 6179 main/binary-amd64/Packages.gz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGj1MACgkQoyFIuaQV
-XH5MvA/8CN4jQ5E8Yoe0XFr8HD91S+LTcDq1IEahpQH0ZtC66b/ZiuZYaYNOsq9l
-L/gmeOwi1zjXbfN3f61gsLxhg9nFt6euyyf1uAynpIb6MDtZAdoBlmGq07YDdbdT
-8CGAC2xNY89RMnFsBMx4i0ekAWj1yEJJTGDPcsp9p6SHo8132JRLqEOiyiFLO40P
-eMtxn60M6WM1VBhkkMXwNALnwERXxlYZkgw5202brdsY3xs6nMn9Qe7HrhvnblT0
-sHqmSdQL+XHEzFxCZm40D4MkjpRsBXQ7GZ0OQVZQCns2JT/eTn4XXmhDUhal0plC
-1YcE4U70I9iKn1wt4s7JJlcbevpoi1SHx7SrwQgjRcXUGQaQi2ohAM/UPvOFuc8F
-opmSm+wl4Z8NOwdGwygTjMKDLYRxiMQ0+jn6yU/fbMLgBfPR4wM19Mn8Hy1MzXoe
-Dh8F9e9jy72QsvItqZG3iXKIWTUqgAYsRGHmJTaKgSDzBA6meNdEV8rk5zlgeb7S
-wu1lzNntOA7JjXeSb1bOHee3I45uYXVAf+2ERa4ZNW/1RW/QyHb6BWTAIQ96t+ly
-lRqMVPSFM1cCDofE7wWyb16agY0xcPU9CbaxndKDEG3/o6Y9OIXG/E5ASD/IaGcW
-2HYuNn3UV8t+Jj7iV4mnbjzBhaiU1YbFsITratTf8Qb8o6k/hw0=
-=BA6s
+iQIzBAEBCgAdFiEE0tAWuqNi54i2PgcJoyFIuaQVXH4FAmkGkcoACgkQoyFIuaQV
+XH5FsRAAi60sAXBEV/TJNnitIib48OE3Y7gwQBiBhjSDUIcTu1rQ+9KmI5Jzkmdi
+vB5MQW/98zMX6Xew2ICxHzqfAzLlF0515Egs6C8qFZJ7ubIuWOXBIT+SCawxPCJc
+9QawcgAHUdW2bJdW/0/S+FEy4rSSRt9l+2+3JlaTangc9Ln6IYEgJhhtS0o53ERe
+BtWj/rBnZd1IGoep5pd/peb5ouJp4lpujB6Gq+MHvQjDWRGf7SCg+jNg1B8f9Hwh
+aW8HHw+8f0YM2uIjrxN5fi4ZTmfuJCLgwDTK3t3WSqpTaiGBTBBsRRiDHlhe3C3l
+uaQOlgm6WPaUmnch+VkIBMw9BIPS7B21f9tkRiKNUNl5AMM/LoMrri9mnHxecLM9
+CVrRrPGkCg5UgxkLQcOrgsJ4ZTXo503X9BCAZfdf1fxL6Q/q9udunDlxD7xNJKVC
+VOppMskQsY/tn49GXFp13DT5u8L9QpUaWHSovqLPrnef/yscTCXDriOJA49HMkzP
+zLsRMmpFG+zpDGyQkXKZLUcfO7NuG2jPuAvXN7wEB1vWHNUfoB0CDHMxml8jWgyu
+IRQGQgb09rkxFc/WGbFCfhBzAYEFoH7lf9Z2LCBt0Xx8ij9GVDRmSfuc49qLzrUB
+CFCbuCjUacHY8QSpEhN3mga11Ai74/H2mTom+kxcJdc3wSHjRec=
+=xF6U
 -----END PGP SIGNATURE-----

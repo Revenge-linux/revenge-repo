@@ -6,10 +6,10 @@ Version: 1.0
 Architectures: amd64
 Components: main
 Description: Repository di strumenti wireless per Revenge OS
-Date: $(date -Ru)
+Date: Sat, 01 Nov 2025 23:03:29 +0000
 MD5Sum:
- $(md5sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ 1331ca827705eb7cadad7668b43afcef 6179 main/binary-amd64/Packages.gz
 SHA1:
- $(sha1sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ 9c1ed76f549af073d36eecacc076fb0331a39393 6179 main/binary-amd64/Packages.gz
 SHA256:
- $(sha256sum dists/stable/main/binary-amd64/Packages.gz | cut -d' ' -f1) $(stat -c%s dists/stable/main/binary-amd64/Packages.gz) main/binary-amd64/Packages.gz
+ d39bf64978b376858bca5979ffd288572d4c9416aa86f695a7d4ce9183fcb27b 6179 main/binary-amd64/Packages.gz
