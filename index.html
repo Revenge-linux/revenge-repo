@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Revenge Repository</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Revenge APT Repository</h1>
+    <p>Official APT repository for Revenge OS - Wireless Pentesting Tools</p>
+    
+    <h2>📁 Repository Structure</h2>
+    <ul>
+        <li><strong><a href="dists/stable/Release">dists/</a></strong> - Distribution metadata</li>
+        <li><strong><a href="pool/main/">pool/</a></strong> - Debian package files (.deb)</li>
+        <li><strong><a href="revenge-public.gpg">revenge-public.gpg</a></strong> - GPG Public Key</li>
+    </ul>
+
+    <h2>🛠️ Available Packages</h2>
+    <ul>
+        <li>aircrack-ng</li>
+        <li>firmware-iwlwifi</li>
+        <li>firmware-realtek</li>
+        <li>hcxdumptool</li>
+        <li>hostapd</li>
+        <li>mdk4</li>
+        <li>reaver</li>
+        <li>wifite</li>
+        <li>...and more</li>
+    </ul>
+
+    <h2>🚀 Usage</h2>
+    <pre>echo "deb [arch=amd64] https://revenge-linux.github.io/revenge-repo/ stable main" | sudo tee /etc/apt/sources.list.d/revenge.list
+sudo apt update
+sudo apt install aircrack-ng wifite</pre>
+
+    <p><strong>GitHub:</strong> <a href="https://github.com/Revenge-linux/revenge-repo">https://github.com/Revenge-linux/revenge-repo</a></p>
+</body>
+</html>
