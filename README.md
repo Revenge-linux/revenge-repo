@@ -16,7 +16,10 @@ Repository APT contenente strumenti per il pentesting wireless.
 - wpasupplicant
 - e altri...
 
+
+
 ## Usage:
+
 ```bash
-echo "deb [arch=amd64] https://raw.githubusercontent.com/Revenge-linux/revenge-repo/master/ stable main" | sudo tee /etc/apt/sources.list.d/revenge.list
+echo "deb [arch=amd64 trusted=yes] https://revenge-repo.pages.dev/ stable main" | sudo tee /etc/apt/sources.list.d/revenge.list
 sudo apt update
